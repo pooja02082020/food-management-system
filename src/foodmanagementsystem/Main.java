@@ -109,7 +109,7 @@ public class Main {
 		String p = sc.nextLine();
 
 		// Hardcoded credentials
-		if (u.equals("admin") && p.equals("admin123")) {
+		if (u.equals("admin") && p.equals("pooja")) {
 			System.out.println("Welcome Admin.");
 			new AdminService().adminMenu();
 		} else {
