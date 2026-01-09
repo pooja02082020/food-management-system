@@ -93,7 +93,7 @@ public class ReportService {
 
     /** Most frequently donated item */
     private void mostDonatedFoodItem() {
-        System.out.println("\nMost Frequent Donation:");
+        System.out.println("\n Most Frequent Donation:");
 
         if (Database.donations.isEmpty()) {
             System.out.println("No donations yet.");

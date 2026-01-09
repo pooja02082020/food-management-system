@@ -26,7 +26,7 @@ public class Main {
 
 		int choice;
 		do {
-			System.out.println("\n--- MAIN MENU ---");
+			System.out.println("\n --- MAIN MENU ---");
 			System.out.println("1. Register (Donor / Recipient)");
 			System.out.println("2. Login as User");
 			System.out.println("3. Login as Admin");
@@ -48,7 +48,7 @@ public class Main {
 
 	/** Register a new donor or recipient */
 	private static void registerUser() {
-		System.out.println("\n--- Registration ---");
+		System.out.println("\n --- Registration ---");
 		int id = Database.users.size() + 1;
 
 		System.out.print("Enter Name: ");
@@ -76,7 +76,7 @@ public class Main {
 
 	/** User Login */
 	private static void loginUser() {
-		System.out.print("\nEnter Name: ");
+		System.out.print("\n Enter Name: ");
 		String name = sc.nextLine();
 
 		for (User u : Database.users) {
