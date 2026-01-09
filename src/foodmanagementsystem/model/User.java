@@ -1,4 +1,4 @@
-package foodmanagementsystem;
+package foodmanagementsystem.model;
 
 /**
  * User class represents a system user: DONOR / RECIPIENT / ADMIN.

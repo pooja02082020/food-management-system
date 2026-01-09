@@ -1,7 +1,11 @@
-package foodmanagementsystem;
+package foodmanagementsystem.repository;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import foodmanagementsystem.model.Donation;
+import foodmanagementsystem.model.RecipientNeed;
+import foodmanagementsystem.model.User;
 
 /**
  * Database class holds all system data in-memory.

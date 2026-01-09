@@ -1,6 +1,11 @@
-package foodmanagementsystem;
+package foodmanagementsystem.service;
 
 import java.util.Scanner;
+
+import foodmanagementsystem.model.Donation;
+import foodmanagementsystem.model.RecipientNeed;
+import foodmanagementsystem.model.User;
+import foodmanagementsystem.repository.Database;
 
 /**
  * RecipientService enables recipients to: - Update their needs - Track assigned

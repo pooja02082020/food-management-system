@@ -1,7 +1,11 @@
-package foodmanagementsystem;
+package foodmanagementsystem.service;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import foodmanagementsystem.model.Donation;
+import foodmanagementsystem.model.User;
+import foodmanagementsystem.repository.Database;
 
 /**
  * ReportService prints analytics for the admin.

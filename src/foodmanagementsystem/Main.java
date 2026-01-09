@@ -2,6 +2,12 @@ package foodmanagementsystem;
 
 import java.util.Scanner;
 
+import foodmanagementsystem.model.User;
+import foodmanagementsystem.repository.Database;
+import foodmanagementsystem.service.AdminService;
+import foodmanagementsystem.service.DonorService;
+import foodmanagementsystem.service.RecipientService;
+
 /**
  * Main class acts as: - Application launcher - Global menu controller
  */

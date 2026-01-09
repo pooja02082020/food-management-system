@@ -1,4 +1,4 @@
-package foodmanagementsystem;
+package foodmanagementsystem.model;
 
 /**
  * RecipientNeed represents donation demand of a recipient.

@@ -1,4 +1,4 @@
-package foodmanagementsystem;
+package foodmanagementsystem.model;
 
 /**
  * Donation class tracks a food donation request.

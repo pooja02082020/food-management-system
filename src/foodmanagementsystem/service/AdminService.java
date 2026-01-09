@@ -1,6 +1,10 @@
-package foodmanagementsystem;
+package foodmanagementsystem.service;
 
 import java.util.Scanner;
+
+import foodmanagementsystem.model.Donation;
+import foodmanagementsystem.model.User;
+import foodmanagementsystem.repository.Database;
 
 /**
  * AdminService manages:
