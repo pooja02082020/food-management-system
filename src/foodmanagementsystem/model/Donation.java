@@ -65,7 +65,6 @@ public class Donation {
 		this.status = status;
 	}
 
-	
 	@Override
 	public String toString() {
 		return id + ". " + foodItem + " | Qty: " + quantity + " | Status: " + status
